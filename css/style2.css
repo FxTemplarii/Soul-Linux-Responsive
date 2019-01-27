@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Lato', 'Nunito', sans-serif;
+}
+
+body {
+    height: 100%;
+    position: relative;
+}
+
+/* Header */
+header {
+    padding-top: 170px;
+    height: 120vh;
+    background-color: black;
+}
+
+header div.text {
+    padding-left: 7%;
+    color: whitesmoke;
+    width: 60%;
+}
+
+header div.text h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 5.5rem;
+    padding-bottom: 40px;
+}
+
+header div.text h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 4rem;
+    padding-bottom: 40px;
+
+}
+
+header div.text h2 span {
+    color: #1556ff;
+}
+
+header div.text p {
+    font-family: 'Nunito', sans-serif;
+    color: #1556ff;
+    font-size: 3.5rem;
+}
+
+header div.learn-more {
+    padding-left: 7%;
+    padding-top: 60px;
+}
+
+header div.learn-more button {
+    background: transparent;
+    color: #1556ff;
+    padding: 15px 25px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    border: 2px solid #1556ff;
+    border-radius: 40px;
+}
+
+/* Main */
+main {
+    max-width: 86%;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    height: 40vh;
+    width: 100%;
+    background-color: black;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 5%;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* 
+footer div.wrapper {
+    max-width: 86%;
+    margin: 0 auto;
+} */
+
+footer div.contact {
+    font-size: 3rem;
+    vertical-align: top;
+    display: inline-block;
+    color: #1556ff;
+    height: 100%;
+    width: 50%;
+}
+
+footer div.author {
+    font-size: 3rem;
+    vertical-align: top;
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    color: #1556ff;
+}
