@@ -68,8 +68,60 @@ header div.learn-more button {
 
 /* Main */
 main {
+    background-color: #1556ff;
+}
+
+main div.wrap {
     max-width: 86%;
     margin: 0 auto;
+}
+
+/* Section Description */
+section.description {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 80px;
+    color: whitesmoke;
+}
+
+section.description h2 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 2.6rem;
+}
+
+section.description p {
+    font-family: 'Nunito', sans-serif;
+    line-height: 160%;
+    font-size: 2rem;
+    letter-spacing: 0.5px;
+}
+
+/* Section Features */
+section.features {
+    color: whitesmoke;
+    padding-bottom: 80px;
+
+}
+
+section.features h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+section.features h2 {
+    font-size: 2.4rem;
+}
+
+section.features p {
+    font-size: 1.8rem;
+    letter-spacing: 0.5px;
+    line-height: 160%;
+    font-family: 'Nunito', sans-serif;
+}
+
+section.features .feature {
+    padding-bottom: 40px;
 }
 
 /* Footer */
@@ -80,23 +132,23 @@ footer {
     padding-left: 7%;
     padding-right: 7%;
     padding-top: 5%;
-    display: inline-block;
+    float: left;
     margin: 0 auto;
     font-size: 0;
     font-family: 'Nunito', sans-serif;
+    color: whitesmoke;
+
 }
 
-/* 
-footer div.wrapper {
-    max-width: 86%;
+div.wrap {
+    max-width: 1140px;
     margin: 0 auto;
-} */
+}
 
 footer div.contact {
     font-size: 3rem;
     vertical-align: top;
-    display: inline-block;
-    color: #1556ff;
+    float: left;
     height: 100%;
     width: 50%;
 }
@@ -104,8 +156,7 @@ footer div.contact {
 footer div.author {
     font-size: 3rem;
     vertical-align: top;
-    display: inline-block;
+    float: left;
     height: 100%;
     width: 50%;
-    color: #1556ff;
 }
