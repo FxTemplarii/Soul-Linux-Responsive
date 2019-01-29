@@ -16,8 +16,8 @@ body {
 
 /* Header */
 header {
-    padding-top: 170px;
-    height: 120vh;
+    padding-top: 100px;
+    height: 90vh;
     background-color: black;
 }
 
@@ -30,8 +30,8 @@ header div.text {
 header div.text h1 {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
-    font-size: 5.5rem;
-    padding-bottom: 40px;
+    font-size: 6rem;
+    padding-bottom: 100px;
 }
 
 header div.text h2 {
@@ -53,7 +53,7 @@ header div.text p {
 
 header div.learn-more {
     padding-left: 7%;
-    padding-top: 60px;
+    padding-top: 120px;
 }
 
 header div.learn-more button {
@@ -85,8 +85,8 @@ section.description {
 
 section.description h2 {
     padding-top: 40px;
-    padding-bottom: 20px;
-    font-size: 2.6rem;
+    padding-bottom: 30px;
+    font-size: 3rem;
 }
 
 section.description p {
@@ -126,37 +126,30 @@ section.features .feature {
 
 /* Footer */
 footer {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
     height: 40vh;
-    width: 100%;
     background-color: black;
-    padding-left: 7%;
-    padding-right: 7%;
-    padding-top: 5%;
-    float: left;
-    margin: 0 auto;
-    font-size: 0;
     font-family: 'Nunito', sans-serif;
     color: whitesmoke;
-
-}
-
-div.wrap {
-    max-width: 1140px;
-    margin: 0 auto;
 }
 
 footer div.contact {
-    font-size: 3rem;
-    vertical-align: top;
-    float: left;
-    height: 100%;
-    width: 50%;
+    font-size: 2.5rem;
 }
 
 footer div.author {
-    font-size: 3rem;
-    vertical-align: top;
-    float: left;
-    height: 100%;
-    width: 50%;
+    font-size: 2.5rem;
+}
+
+/* Media queries */
+
+@media(max-width: 1024px) {
+    footer {
+        flex-direction: column;
+    }
+
 }
