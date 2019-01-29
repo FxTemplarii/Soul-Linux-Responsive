@@ -16,15 +16,19 @@ body {
 
 /* Header */
 header {
-    padding-top: 100px;
+    padding-top: 120px;
     height: 90vh;
     background-color: black;
 }
 
+header div.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 header div.text {
-    padding-left: 7%;
     color: whitesmoke;
-    width: 60%;
+    width: 80%;
 }
 
 header div.text h1 {
@@ -36,7 +40,7 @@ header div.text h1 {
 
 header div.text h2 {
     font-family: 'Nunito', sans-serif;
-    font-size: 4rem;
+    font-size: 4.4rem;
     padding-bottom: 40px;
 
 }
@@ -48,97 +52,183 @@ header div.text h2 span {
 header div.text p {
     font-family: 'Nunito', sans-serif;
     color: #1556ff;
-    font-size: 3.5rem;
+    font-size: 3.8rem;
 }
 
 header div.learn-more {
-    padding-left: 7%;
     padding-top: 120px;
 }
 
 header div.learn-more button {
     background: transparent;
     color: #1556ff;
-    padding: 15px 25px;
-    font-size: 2.5rem;
+    padding: 20px 30px;
+    font-size: 2.8rem;
     font-weight: bold;
     border: 2px solid #1556ff;
     border-radius: 40px;
+    transition: 0.5s ease;
 }
 
-/* Main */
-main {
-    background-color: #1556ff;
-}
-
-main div.wrap {
-    max-width: 86%;
-    margin: 0 auto;
+header div.learn-more button:hover {
+    background-color: whitesmoke;
+    color: #1556ff;
 }
 
 /* Section Description */
+
 section.description {
+    background-color: #1556ff;
+    padding-top: 55px;
     font-family: 'Lato', sans-serif;
-    margin-bottom: 80px;
+    padding-bottom: 100px;
     color: whitesmoke;
+}
+
+section.description div.wrap {
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 section.description h2 {
     padding-top: 40px;
-    padding-bottom: 30px;
-    font-size: 3rem;
+    padding-bottom: 50px;
+    font-size: 4rem;
 }
 
 section.description p {
     font-family: 'Nunito', sans-serif;
     line-height: 160%;
-    font-size: 2rem;
-    letter-spacing: 0.5px;
+    font-size: 2.6rem;
+    letter-spacing: 1px;
 }
 
 /* Section Features */
 section.features {
-    color: whitesmoke;
+    background-color: black;
     padding-bottom: 80px;
 
 }
 
+section.features div.wrap {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 section.features h1 {
-    font-size: 2.8rem;
+    color: whitesmoke;
+    font-size: 4rem;
     font-weight: bold;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
+    padding-left: 15%;
+    padding-top: 60px;
 }
 
 section.features h2 {
-    font-size: 2.4rem;
+    color: whitesmoke;
+    font-size: 3.4rem;
+    padding-bottom: 40px;
 }
 
 section.features p {
-    font-size: 1.8rem;
+    color: #1556ff;
+    font-size: 2.4rem;
     letter-spacing: 0.5px;
     line-height: 160%;
     font-family: 'Nunito', sans-serif;
 }
 
 section.features .feature {
-    padding-bottom: 40px;
+    width: 50%;
+
+}
+
+section.features .feature:nth-child(even) {
+    border-left: 2px solid whitesmoke;
+    margin-bottom: 80px;
+    padding-left: 30px;
+}
+
+section.features .feature:nth-child(odd) {
+    padding-right: 30px;
+}
+
+/* Section Download */
+section.download {
+    background-color: #1556ff;
+    height: 60vh;
+    width: 100%;
+}
+
+section.download div.wrap {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section.download h1 {
+    color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+    font-size: 4rem;
+    text-transform: uppercase;
+    padding-top: 60px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+section.download h2 {
+    font-size: 2.8rem;
+    padding-bottom: 100px;
+    text-align: center;
+
+}
+
+section.download button {
+    border: 2px solid black;
+    color: #1556ff;
+    height: 80px;
+    width: 320px;
+    border-radius: 50px;
+    font-size: 2.8rem;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+
+section.download button:hover {
+    background-color: black;
+    color: #1556ff;
+    border: 2px solid whitesmoke;
 }
 
 /* Footer */
 footer {
-    display: flex;
-    flex-basis: 50%;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
     height: 40vh;
     background-color: black;
     font-family: 'Nunito', sans-serif;
     color: whitesmoke;
 }
 
+footer div.wrapper {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 40vh;
+}
+
 footer div.contact {
     font-size: 2.5rem;
+}
+
+footer div.contact i {
+    padding-right: 15px;
 }
 
 footer div.author {
