@@ -11,37 +11,36 @@ html {
 
 body {
     height: 100%;
-    position: relative;
 }
 
 /* Header */
 header {
-    padding-top: 120px;
+    padding-top: 40px;
     height: 90vh;
-    background-color: black;
+    background-color: rgb(15, 15, 15);
 }
 
 header div.wrapper {
-    max-width: 1280px;
+    width: 80%;
     margin: 0 auto;
 }
 
 header div.text {
     color: whitesmoke;
-    width: 80%;
+
 }
 
 header div.text h1 {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
-    font-size: 6rem;
-    padding-bottom: 100px;
+    font-size: 3rem;
+    padding-bottom: 30px;
 }
 
 header div.text h2 {
     font-family: 'Nunito', sans-serif;
-    font-size: 4.4rem;
-    padding-bottom: 40px;
+    font-size: 3rem;
+    padding-bottom: 20px;
 
 }
 
@@ -52,77 +51,72 @@ header div.text h2 span {
 header div.text p {
     font-family: 'Nunito', sans-serif;
     color: #1556ff;
-    font-size: 3.8rem;
+    font-size: 2.2rem;
 }
 
 header div.learn-more {
-    padding-top: 120px;
+    padding-top: 20px;
+    text-align: center;
 }
 
 header div.learn-more button {
+    height: 60px;
+    width: 180px;
     background: transparent;
     color: #1556ff;
-    padding: 20px 30px;
-    font-size: 2.8rem;
+    padding: 10px 25px;
+    font-size: 2rem;
     font-weight: bold;
     border: 2px solid #1556ff;
     border-radius: 40px;
-    transition: 0.5s ease;
-}
-
-header div.learn-more button:hover {
-    background-color: whitesmoke;
-    color: #1556ff;
 }
 
 /* Section Description */
-
 section.description {
     background-color: #1556ff;
-    padding-top: 55px;
+    padding-top: 30px;
     font-family: 'Lato', sans-serif;
     padding-bottom: 100px;
     color: whitesmoke;
 }
 
 section.description div.wrap {
-    max-width: 1280px;
+    width: 80%;
     margin: 0 auto;
 }
 
 section.description h2 {
     padding-top: 40px;
     padding-bottom: 50px;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 section.description p {
     font-family: 'Nunito', sans-serif;
     line-height: 160%;
-    font-size: 2.6rem;
+    font-size: 2.2rem;
     letter-spacing: 1px;
 }
 
 /* Section Features */
 section.features {
-    background-color: black;
+    background-color: rgb(15, 15, 15);
     padding-bottom: 80px;
 
 }
 
 section.features div.wrap {
-    max-width: 1280px;
+    max-width: 80%;
     margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 section.features h1 {
+    width: 80%;
+    margin: 0 auto;
     color: whitesmoke;
     font-size: 4rem;
     font-weight: bold;
     padding-bottom: 60px;
-    padding-left: 15%;
     padding-top: 60px;
 }
 
@@ -134,17 +128,20 @@ section.features h2 {
 
 section.features p {
     color: #1556ff;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     letter-spacing: 0.5px;
     line-height: 160%;
     font-family: 'Nunito', sans-serif;
 }
 
 section.features .feature {
-    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
 
 }
 
+/* 
 section.features .feature:nth-child(even) {
     border-left: 2px solid whitesmoke;
     margin-bottom: 80px;
@@ -153,93 +150,756 @@ section.features .feature:nth-child(even) {
 
 section.features .feature:nth-child(odd) {
     padding-right: 30px;
-}
+} */
 
 /* Section Download */
 section.download {
     background-color: #1556ff;
-    height: 60vh;
+    height: 100vh;
     width: 100%;
 }
 
 section.download div.wrap {
-    max-width: 1280px;
+    width: 80%;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    text-align: center;
 }
 
 section.download h1 {
+    width: 80%;
+    margin: 0 auto;
     color: whitesmoke;
     font-family: 'Lato', sans-serif;
-    font-size: 4rem;
+    font-size: 2.2rem;
     text-transform: uppercase;
-    padding-top: 60px;
-    padding-bottom: 120px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
 }
 
 section.download h2 {
-    font-size: 2.8rem;
-    padding-bottom: 100px;
+    font-size: 2.4rem;
+    padding-bottom: 50px;
     text-align: center;
 
+}
+
+section.download div.torrent {
+    padding-bottom: 40px;
 }
 
 section.download button {
     border: 2px solid black;
     color: #1556ff;
-    height: 80px;
-    width: 320px;
+    height: 60px;
+    width: 240px;
     border-radius: 50px;
     font-size: 2.8rem;
     font-weight: bold;
     transition: 0.5s ease;
 }
 
+/* 
 section.download button:hover {
     background-color: black;
     color: #1556ff;
     border: 2px solid whitesmoke;
-}
+} */
 
 /* Footer */
 footer {
-    height: 40vh;
-    background-color: black;
+    padding-top: 40px;
+    height: 50vh;
+    background-color: rgb(15, 15, 15);
     font-family: 'Nunito', sans-serif;
     color: whitesmoke;
 }
 
 footer div.wrapper {
-    display: flex;
-    flex-basis: 50%;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    max-width: 1140px;
+    width: 80%;
     margin: 0 auto;
     height: 40vh;
 }
 
 footer div.contact {
-    font-size: 2.5rem;
-}
-
-footer div.contact i {
-    padding-right: 15px;
+    font-size: 1.4rem;
+    padding-bottom: 15px;
 }
 
 footer div.author {
-    font-size: 2.5rem;
+    font-size: 1.4rem;
 }
 
-/* Media queries */
 
-@media(max-width: 1024px) {
-    footer {
-        flex-direction: column;
+/* Media queries Header Portrait */
+@media(min-width:360px) and (orientation:portrait) {
+    header div.text h1 {
+        font-size: 3rem;
+        padding-bottom: 50px;
     }
 
+    header div.text h2 {
+        font-size: 3rem;
+        padding-bottom: 40px;
+
+    }
+
+    header div.text p {
+        font-size: 2.4rem;
+    }
+
+    header div.learn-more {
+        padding-top: 60px;
+    }
+}
+
+@media(min-width:410px) and (orientation:portrait) {
+    header div.text h1 {
+        font-size: 3rem;
+        padding-bottom: 70px;
+    }
+
+    header div.text h2 {
+        padding-bottom: 60px;
+
+    }
+
+    header div.text p {
+        font-size: 2.6rem;
+    }
+
+    header div.learn-more {
+        padding-top: 60px;
+    }
+
+    header div.learn-more button {
+        height: 80px;
+        width: 220px;
+        font-size: 2.4rem;
+    }
+}
+
+@media(min-width:768px) and (orientation:portrait) {
+    header div.text h1 {
+        padding-top: 40px;
+        font-size: 5rem;
+        padding-bottom: 90px;
+    }
+
+    header div.text h2 {
+        font-size: 4.6rem;
+        padding-bottom: 60px;
+
+    }
+
+    header div.text p {
+        font-size: 4rem;
+    }
+
+    header div.learn-more {
+        padding-top: 90px;
+    }
+
+    header div.learn-more button {
+        height: 120px;
+        width: 340px;
+        font-size: 3.4rem;
+        border-radius: 60px;
+        border: 3px solid #1556ff;
+    }
+}
+
+@media(min-width:1024px) and (orientation:portrait) {
+    header div.text h1 {
+        padding-top: 60px;
+        font-size: 7rem;
+        padding-bottom: 120px;
+    }
+
+    header div.text h2 {
+        font-size: 6rem;
+        padding-bottom: 60px;
+
+    }
+
+    header div.text p {
+        font-size: 5.6rem;
+    }
+
+    header div.learn-more {
+        padding-top: 110px;
+    }
+
+    header div.learn-more button {
+        height: 160px;
+        width: 440px;
+        font-size: 4.6rem;
+        border-radius: 100px;
+        border: 4px solid #1556ff;
+    }
+}
+
+/* Media queries Section Description Portrait */
+@media(min-width:768px) and (orientation:portrait) {
+    section.description {
+        padding-top: 30px;
+        padding-bottom: 100px;
+    }
+
+    section.description h2 {
+        padding-top: 80px;
+        padding-bottom: 50px;
+        font-size: 4.8rem;
+    }
+
+    section.description p {
+        font-size: 3rem;
+    }
+}
+
+@media(min-width:1024px) and (orientation:portrait) {
+    section.description {
+        padding-top: 30px;
+        padding-bottom: 120px;
+    }
+
+    section.description h2 {
+        padding-top: 100px;
+        padding-bottom: 80px;
+        font-size: 6.4rem;
+    }
+
+    section.description p {
+        font-size: 4.8rem;
+    }
+}
+
+/* Media queries Section Features Portrait */
+@media(min-width:768px) and (orientation:portrait) {
+    section.features {
+        padding-bottom: 80px;
+    }
+
+    section.features h1 {
+        font-size: 5rem;
+        padding-bottom: 80px;
+        padding-top: 80px;
+    }
+
+    section.features h2 {
+        font-size: 4rem;
+        padding-bottom: 60px;
+    }
+
+    section.features p {
+        font-size: 3rem;
+    }
+
+    section.features .feature {
+        margin-bottom: 60px;
+
+    }
+}
+
+@media(min-width:1024px) and (orientation:portrait) {
+    section.features h1 {
+        font-size: 7rem;
+    }
+
+    section.features h2 {
+        font-size: 6rem;
+        padding-bottom: 80px;
+    }
+
+    section.features p {
+        font-size: 4.8rem;
+    }
+
+    section.features .feature {
+        margin-bottom: 120px;
+
+    }
+}
+
+/* Media queries Section Download Portrait */
+@media(min-width:360px) and (orientation:portrait) {
+    section.download h2 {
+        padding-bottom: 70px;
+    }
+
+    section.download div.torrent {
+        padding-bottom: 70px;
+    }
+
+    section.download button {
+        height: 70px;
+    }
+}
+
+@media(min-width:410px) and (orientation:portrait) {
+    section.download h1 {
+        font-size: 2.8rem;
+        padding-bottom: 70px;
+    }
+
+    section.download h2 {
+        font-size: 2.8rem;
+        padding-bottom: 70px;
+    }
+
+    section.download div.torrent {
+        padding-bottom: 70px;
+    }
+
+    section.download button {
+        height: 80px;
+    }
+}
+
+@media(min-width:768px) and (orientation:portrait) {
+    section.download h1 {
+        font-size: 4.2rem;
+        padding-bottom: 100px;
+        padding-top: 80px;
+    }
+
+    section.download h2 {
+        font-size: 4rem;
+        padding-bottom: 100px;
+    }
+
+    section.download div.torrent {
+        padding-bottom: 120px;
+    }
+
+    section.download button {
+        height: 120px;
+        width: 400px;
+        border-radius: 60px;
+        font-size: 3.4rem;
+    }
+}
+
+@media(min-width:1024px) and (orientation:portrait) {
+    section.download h1 {
+        font-size: 6rem;
+        padding-bottom: 140px;
+        padding-top: 80px;
+    }
+
+    section.download h2 {
+        font-size: 5rem;
+        padding-bottom: 160px;
+    }
+
+    section.download div.torrent {
+        padding-bottom: 120px;
+    }
+
+    section.download button {
+        height: 140px;
+        width: 440px;
+        border-radius: 80px;
+        font-size: 4.4rem;
+        border: 4px solid black;
+    }
+}
+
+/* Media queries Footer Portrait */
+@media(min-width:360px) and (orientation:portrait) {
+    footer {
+        padding-top: 50px;
+    }
+
+    footer div.contact {
+        font-size: 1.6rem;
+    }
+
+    footer div.author {
+        font-size: 1.6rem;
+    }
+}
+
+@media(min-width:410px) and (orientation:portrait) {
+    footer div.wrapper {
+        padding-top: 20px;
+    }
+
+    footer div.contact {
+        font-size: 1.8rem;
+    }
+
+    footer div.author {
+        font-size: 1.8rem;
+    }
+}
+
+@media(min-width:410px) and (orientation:portrait) {
+    footer div.wrapper {
+        padding-top: 20px;
+    }
+
+    footer div.contact {
+        font-size: 1.8rem;
+    }
+
+    footer div.author {
+        font-size: 1.8rem;
+    }
+}
+
+@media(min-width:768px) and (orientation:portrait) {
+    footer div.wrapper {
+        padding-top: 20px;
+    }
+
+    footer div.contact {
+        font-size: 2.8rem;
+        padding-bottom: 80px;
+    }
+
+    footer div.author {
+        font-size: 2.8rem;
+    }
+}
+
+@media(min-width:1024px) and (orientation:portrait) {
+    footer div.wrapper {
+        padding-top: 20px;
+    }
+
+    footer div.contact {
+        font-size: 3.8rem;
+        padding-bottom: 120px;
+    }
+
+    footer div.author {
+        font-size: 3.8rem;
+    }
+}
+
+/* Media queries Header Landscape */
+@media(min-width:533px) and (orientation:landscape) {
+    header {
+        padding-top: 30px;
+        height: 100vh;
+    }
+
+    header div.text h1 {
+        font-size: 3rem;
+        padding-bottom: 30px;
+    }
+
+    header div.text h2 {
+        font-size: 3rem;
+        padding-bottom: 30px;
+    }
+
+    header div.text p {
+        font-size: 2.2rem;
+    }
+
+    header div.learn-more {
+        display: none;
+    }
+}
+
+@media(min-width:640px) and (orientation:landscape) {
+    header {
+        padding-top: 35px;
+    }
+
+    header div.text h2 {
+        padding-bottom: 25px;
+
+    }
+
+    header div.learn-more {
+        padding-top: 20px;
+        display: block;
+    }
+}
+
+@media(min-width:710px) and (orientation:landscape) {
+    header {
+        padding-top: 40px;
+    }
+
+    header div.text p {
+        font-size: 2.4rem;
+    }
+
+    header div.learn-more {
+        padding-top: 40px;
+    }
+}
+
+@media(min-width:768px) and (orientation:landscape) {
+    header {
+        padding-top: 40px;
+    }
+
+    header div.learn-more {
+        padding-top: 20px;
+    }
+}
+
+@media(min-width:1024px) and (orientation:landscape) {
+    header {
+        padding-top: 50px;
+        height: 90vh;
+    }
+
+    header div.wrapper {}
+
+    header div.text h1 {
+        font-size: 3.8rem;
+        padding-bottom: 60px;
+    }
+
+    header div.text h2 {
+        font-size: 3.6rem;
+        padding-bottom: 60px;
+    }
+
+    header div.text p {
+        font-size: 3.6rem;
+    }
+
+    header div.learn-more {
+        padding-top: 90px;
+    }
+
+    header div.learn-more button {
+        font-size: 3.2rem;
+        height: 90px;
+        width: 280px;
+        border-radius: 80px;
+    }
+}
+
+@media(min-width:1366px) {
+    header {
+        padding-top: 70px;
+    }
+
+    header div.wrapper {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+
+    header div.text h1 {
+        font-size: 5rem;
+        padding-bottom: 100px;
+    }
+
+    header div.text h2 {
+        font-size: 4.4rem;
+        padding-bottom: 60px;
+    }
+
+    header div.text p {
+        font-size: 4rem;
+    }
+
+    header div.learn-more {
+        text-align: left;
+        padding-top: 160px;
+    }
+
+    header div.learn-more button {
+        font-size: 3rem;
+        height: 90px;
+        width: 300px;
+        border-radius: 80px;
+        transition: 0.5s ease;
+    }
+
+    header div.learn-more button:hover {
+        background-color: whitesmoke;
+        color: #1556ff;
+    }
+}
+
+@media(min-width:1600px) {
+    header {
+        padding-top: 120px;
+    }
+
+    header div.text h1 {
+        font-size: 6rem;
+        padding-bottom: 100px;
+    }
+
+    header div.text {
+        width: 80%;
+    }
+
+    header div.text h2 {
+        font-size: 4.4rem;
+        padding-bottom: 40px;
+    }
+
+    header div.text p {
+        font-size: 3.8rem;
+    }
+
+    header div.learn-more {
+        padding-top: 120px;
+    }
+
+    header div.learn-more button {
+        font-size: 3.2rem;
+    }
+}
+
+/* Media queries Section Description Landscape */
+@media(min-width:533px) and (orientation:landscape) {
+    section.description {
+        padding-bottom: 100px;
+    }
+
+    section.description h2 {
+        padding-top: 40px;
+        padding-bottom: 50px;
+        font-size: 2.8rem;
+    }
+
+    section.description p {
+        font-size: 2rem;
+    }
+}
+
+@media(min-width:768px) and (orientation:landscape) {
+    section.description h2 {
+        font-size: 3.4rem;
+    }
+
+    section.description p {
+        font-size: 2.2rem;
+    }
+}
+
+@media(min-width:1024px) and (orientation:landscape) {
+    section.description h2 {
+        font-size: 3.6rem;
+    }
+
+    section.description p {
+        font-size: 2.6rem;
+    }
+}
+
+@media(min-width:1360px) {
+    section.description div.wrap {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+
+    section.description h2 {
+        font-size: 4rem;
+    }
+
+    section.description p {
+        font-size: 3rem;
+    }
+}
+
+@media(min-width:1600px) {
+    section.description h2 {
+        font-size: 4.4rem;
+    }
+
+    section.description p {
+        font-size: 3rem;
+    }
+}
+
+/* Media queries Section Features Landscape */
+@media(min-width:533px) and (orientation:landscape) {
+    section.features {
+        padding-bottom: 40px;
+    }
+
+    section.features div.wrap {}
+
+    section.features h1 {
+        font-size: 3.2rem;
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+
+    section.features h2 {
+        font-size: 2.8rem;
+        padding-bottom: 40px;
+    }
+
+    section.features p {
+        font-size: 2rem;
+    }
+}
+
+@media(min-width:768px) and (orientation:landscape) {
+    section.features h1 {
+        font-size: 3.8rem;
+    }
+
+    section.features h2 {
+        font-size: 3.2rem;
+    }
+
+    section.features p {
+        font-size: 2.2rem;
+    }
+}
+
+@media(min-width:1024px) and (orientation:landscape) {
+    section.features h1 {
+        font-size: 4rem;
+    }
+
+    section.features h2 {
+        font-size: 3.4rem;
+    }
+
+    section.features p {
+        font-size: 2.4rem;
+    }
+}
+
+@media(min-width:1366px) and (orientation:landscape) {
+    section.features h1 {
+        max-width: 1280px;
+        margin: 0 auto;
+        font-size: 4rem;
+    }
+
+    section.features h2 {
+        font-size: 3.4rem;
+    }
+
+    section.features p {
+        font-size: 2.4rem;
+    }
+
+    section.features .feature {
+        width: 80%;
+    }
+
+    section.features div.wrap {
+        max-width: 1280px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    section.features .feature:nth-child(even) {
+        border-left: 2px solid whitesmoke;
+        margin-bottom: 80px;
+        padding-left: 30px;
+    }
+
+    section.features .feature:nth-child(odd) {
+        padding-right: 30px;
+    }
 }
