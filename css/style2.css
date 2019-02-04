@@ -15,11 +15,11 @@ html {
 /* Header */
 header {
     height: 100vh;
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(0, 0, 0);
 }
 
 header div.wrapper {
-    width: 80%;
+    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -57,7 +57,7 @@ header div.learn-more button {
     font-family: 'Nunito', sans-serif;
     border: 2px solid #1556ff;
     color: #1556ff;
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(0, 0, 0);
     font-weight: bold;
     border-radius: 40px;
     padding: 15px 20px;
@@ -67,8 +67,6 @@ header div.learn-more button {
 /* Section Description */
 section.description {
     background-color: #1556ff;
-    padding-top: 30px;
-    padding-bottom: 40px;
 }
 
 section.description .wrap {
@@ -81,17 +79,19 @@ section.description h2 {
     color: whitesmoke;
     font-size: 2.6rem;
     padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 section.description p {
+    line-height: 160%;
     color: whitesmoke;
     font-size: 1.8rem;
+    padding-bottom: 40px;
 }
 
 /* Section Features */
 section.features {
-    background-color: rgb(15, 15, 15);
-    padding-top: 30px;
+    background-color: rgb(0, 0, 0);
     padding-bottom: 20px;
 }
 
@@ -101,11 +101,13 @@ section.features .wrap {
 }
 
 section.features h1 {
+    font-family: 'Lato', sans-serif;
     max-width: 80%;
     margin: 0 auto;
     color: whitesmoke;
     font-size: 2.4rem;
     padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 section.features h2 {
@@ -127,7 +129,6 @@ section.features p {
 section.download {
     background-color: #1556ff;
     padding-bottom: 50px;
-    padding-top: 30px;
 }
 
 section.download .wrap {
@@ -143,6 +144,7 @@ section.download h1 {
     color: whitesmoke;
     font-size: 2.6rem;
     padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 section.download .torrent {
@@ -150,13 +152,13 @@ section.download .torrent {
 }
 
 section.download h2 {
-    color: rgb(15, 15, 15);
+    color: rgb(0, 0, 0);
     font-size: 2.2rem;
     padding-bottom: 40px;
 }
 
 section.download button {
-    border: 2px solid rgb(15, 15, 15);
+    border: 2px solid rgb(0, 0, 0);
     background-color: whitesmoke;
     color: #1556ff;
     font-weight: bold;
@@ -167,7 +169,7 @@ section.download button {
 
 /* Footer */
 footer {
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(0, 0, 0);
 }
 
 footer div.wrapper {
@@ -186,4 +188,678 @@ footer .author {
     color: whitesmoke;
     font-size: 1.4rem;
     padding-bottom: 40px;
+}
+
+/* Media queries All Website Portrait */
+@media(min-width:360px) and (orientation:portrait) {
+    header div.text p {
+        font-size: 2.1rem;
+    }
+
+    header div.learn-more {
+        padding-top: 75px;
+    }
+
+    header div.learn-more button {
+        padding: 20px 20px;
+    }
+
+    section.description p {
+        font-size: 1.9rem;
+    }
+
+    section.features h1 {
+        font-size: 2.6rem;
+    }
+
+    section.features h2 {
+        font-size: 2.4rem;
+    }
+
+    section.download h1 {
+        font-size: 2.9rem;
+        padding-bottom: 40px;
+    }
+}
+
+@media(min-width:410px) and (orientation:portrait) {
+    header div.text p {
+        font-size: 2.3rem;
+    }
+
+    header div.learn-more {
+        padding-top: 95px;
+    }
+
+    header div.learn-more button {
+        padding: 20px 25px;
+        font-size: 2.4rem;
+    }
+
+    section.description p {
+        font-size: 2rem;
+    }
+
+    section.features h1 {
+        font-size: 2.8rem;
+    }
+
+    section.features h2 {
+        font-size: 2.6rem;
+    }
+
+    section.features p {
+        font-size: 1.9rem;
+    }
+
+    section.download h1 {
+        font-size: 3rem;
+        padding-bottom: 40px;
+    }
+
+    section.download h2 {
+        font-size: 2.4rem;
+    }
+}
+
+@media(min-width:768px) and (orientation:portrait) {
+    header {
+        height: 90vh;
+    }
+
+    header div.text h1 {
+        font-size: 4.2rem;
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+
+    header div.text h2 {
+        font-size: 3.8rem;
+        padding-bottom: 60px;
+    }
+
+    header div.text p {
+        font-size: 3.2rem;
+    }
+
+    header div.learn-more {
+        padding-top: 105px;
+    }
+
+    header div.learn-more button {
+        padding: 25px 35px;
+        font-size: 3.2rem;
+        border-radius: 80px;
+    }
+
+    section.description h2 {
+        font-size: 3.6rem;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    section.description p {
+        font-size: 2.8rem;
+        padding-bottom: 100px;
+    }
+
+    section.features {
+        padding-bottom: 50px;
+    }
+
+    section.features .feature {
+        padding-bottom: 50px;
+    }
+
+    section.features h1 {
+        font-size: 3.8rem;
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    section.features h2 {
+        font-size: 3.4rem;
+        padding-bottom: 40px;
+    }
+
+    section.features p {
+        font-size: 2.6rem;
+    }
+
+    section.download {
+        padding-bottom: 80px;
+    }
+
+    section.download .wrap {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    section.download h1 {
+        font-size: 4rem;
+        padding-bottom: 100px;
+        padding-top: 60px;
+    }
+
+    section.download h2 {
+        font-size: 3.4rem;
+        padding-bottom: 100px;
+    }
+
+    section.download .torrent {
+        padding-bottom: 60px;
+    }
+
+    section.download button {
+        padding: 25px 35px;
+        font-size: 3rem;
+        border-radius: 80px;
+    }
+
+    footer div.wrapper {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    footer .contact {
+        font-size: 1.9rem;
+        padding-bottom: 0;
+    }
+
+    footer .author {
+        font-size: 1.9rem;
+        padding: 0;
+    }
+}
+
+@media(min-width:1024px) and (orientation:portrait) {
+    header div.text h1 {
+        font-size: 5.6rem;
+        padding-top: 100px;
+        padding-bottom: 90px;
+    }
+
+    header div.text h2 {
+        font-size: 5rem;
+        padding-bottom: 80px;
+    }
+
+    header div.text p {
+        font-size: 4.6rem;
+    }
+
+    header div.learn-more {
+        padding-top: 140px;
+    }
+
+    header div.learn-more button {
+        border: 4px solid #1556ff;
+        padding: 40px 55px;
+        font-size: 5rem;
+    }
+
+    section.description h2 {
+        font-size: 5.4rem;
+        padding-top: 140px;
+        padding-bottom: 70px;
+    }
+
+    section.description p {
+        font-size: 4rem;
+        padding-bottom: 140px;
+    }
+
+    section.features .feature {
+        padding-bottom: 70px;
+    }
+
+    section.features h1 {
+        font-size: 5rem;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    section.features h2 {
+        font-size: 4.6em;
+        padding-bottom: 50px;
+    }
+
+    section.features p {
+        font-size: 4rem;
+    }
+
+    section.download {
+        padding-bottom: 60px;
+    }
+
+    section.download h1 {
+        font-size: 4.9rem;
+    }
+
+    section.download h2 {
+        font-size: 4.6rem;
+        padding-bottom: 120px;
+    }
+
+    section.download .torrent {
+        padding-bottom: 60px;
+    }
+
+    section.download button {
+        border: 4px solid rgb(15, 15, 15);
+        padding: 40px 55px;
+        font-size: 4.6rem;
+        border-radius: 80px;
+    }
+
+    footer div.wrapper {
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+
+    footer .contact {
+        font-size: 2.6rem;
+        padding-bottom: 0;
+    }
+
+    footer .author {
+        font-size: 2.6rem;
+        padding: 0;
+        text-align: right;
+    }
+}
+
+/* Media queries All Website Landscape */
+@media(orientation:landscape) {
+    header div.text h1 {
+        font-size: 3rem;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    header div.text h2 {
+        font-size: 2.4rem;
+        padding-bottom: 20px;
+    }
+
+    header div.text p {
+        font-size: 2rem;
+    }
+
+    header div.learn-more button {
+        display: none;
+    }
+
+    section.download h1 {
+        font-size: 2.5rem;
+        padding-bottom: 50px;
+        padding-top: 40px;
+    }
+
+    footer div.wrapper {
+        text-align: center;
+    }
+
+}
+
+@media(min-width:640px) and (orientation:landscape) {
+    header div.learn-more {
+        padding-top: 20px;
+    }
+
+    header div.learn-more button {
+        display: inline-block;
+        text-align: center;
+    }
+
+    section.download h1 {
+        font-size: 3rem;
+        padding-bottom: 50px;
+        padding-top: 40px;
+    }
+
+    section.download h2 {
+        font-size: 2.6rem;
+    }
+
+    section.download button {
+        padding: 20px 35px;
+        font-size: 2.4rem;
+    }
+
+    footer div.wrapper {
+        text-align: center;
+    }
+
+    footer div.contact {
+        font-size: 1.6rem;
+
+    }
+
+    footer div.author {
+        font-size: 1.6rem;
+    }
+
+}
+
+@media(min-width:710px) and (orientation:landscape) {
+    header div.text h1 {
+        padding-top: 40px;
+        font-size: 3.2rem;
+    }
+
+    header div.text h2 {
+        font-size: 2.8rem;
+    }
+
+    header div.text p {
+        font-size: 2.2rem;
+    }
+
+    header div.learn-more {
+        padding-top: 25px;
+    }
+
+    header div.learn-more button {
+        font-size: 2.2rem;
+        padding: 20px 25px;
+    }
+
+    section.description h2 {
+        font-size: 3rem;
+    }
+
+    section.description p {
+        font-size: 2rem;
+    }
+
+    section.features h1 {
+        font-size: 3.4rem;
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+
+    section.features h2 {
+        font-size: 2.8rem;
+    }
+
+    section.features p {
+        font-size: 2.2rem;
+    }
+
+    section.download .wrap {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    section.download h1 {
+        font-size: 3.4rem;
+        padding-bottom: 50px;
+        padding-top: 40px;
+    }
+
+    section.download h2 {
+        font-size: 2.8rem;
+        padding-bottom: 80px;
+    }
+
+    section.download button {
+        padding: 20px 35px;
+        font-size: 2.6rem;
+    }
+
+    footer div.wrapper {
+        text-align: left;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    footer div.contact {
+        font-size: 1.8rem;
+
+    }
+
+    footer div.author {
+        font-size: 1.8rem;
+        padding-bottom: 20px;
+    }
+
+}
+
+@media(min-width:1024px) and (orientation:landscape) {
+    header {
+        height: 90vh;
+    }
+
+    header div.text h1 {
+        padding-top: 70px;
+        padding-bottom: 80px;
+        font-size: 4rem;
+    }
+
+    header div.text h2 {
+        font-size: 3.2rem;
+        padding-bottom: 50px;
+    }
+
+    header div.text p {
+        font-size: 2.8rem;
+    }
+
+    header div.learn-more {
+        text-align: left;
+        padding-top: 75px;
+    }
+
+    header div.learn-more button {
+        font-size: 3rem;
+        padding: 20px 30px;
+        border-radius: 80px;
+    }
+
+    section.description h2 {
+        font-size: 3rem;
+        padding-top: 80px;
+    }
+
+    section.description p {
+        font-size: 2.2rem;
+        padding-bottom: 80px;
+    }
+
+    section.features h1 {
+        max-width: 1280px;
+        margin: 0 auto;
+        font-size: 3.4rem;
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+
+    section.features h2 {
+        font-size: 3rem;
+        padding-bottom: 40px;
+    }
+
+    section.features p {
+        font-size: 2.4rem;
+    }
+
+    section.download h1 {
+        font-size: 3.4rem;
+        padding-bottom: 50px;
+        padding-top: 40px;
+    }
+
+    section.download h2 {
+        font-size: 2.8rem;
+        padding-bottom: 80px;
+    }
+
+    section.download button {
+        padding: 25px 40px;
+        font-size: 2.8em;
+    }
+
+}
+
+@media(min-width:1366px) {
+    header {
+        height: 90vh;
+    }
+
+    header div.wrapper {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+
+    header div.text {
+        width: 80%;
+    }
+
+    header div.text h1 {
+        padding-top: 120px;
+        padding-bottom: 80px;
+        font-size: 5rem;
+    }
+
+    header div.text h2 {
+        font-size: 4rem;
+        padding-bottom: 60px;
+    }
+
+    header div.text p {
+        font-size: 3.6rem;
+    }
+
+    header div.learn-more {
+        text-align: left;
+        padding-top: 110px;
+    }
+
+    header div.learn-more button {
+        border: 3px solid #1556ff;
+        font-size: 3.4rem;
+        padding: 20px 30px;
+        transition: 0.5s ease;
+    }
+
+    header div.learn-more button:hover {
+        background-color: whitesmoke;
+        border: 3px solid whitesmoke;
+    }
+
+    section.description .wrap {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+
+    section.description h2 {
+        font-size: 4rem;
+        padding-bottom: 40px;
+        padding-top: 100px;
+    }
+
+    section.description p {
+        font-size: 2.6rem;
+        padding-bottom: 100px;
+    }
+
+    section.features .wrap {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+
+    section.features h1 {
+        font-size: 4rem;
+        padding-bottom: 70px;
+        padding-top: 70px;
+    }
+
+    section.features h2 {
+        font-size: 3.4rem;
+    }
+
+    section.features .feature {
+        width: 50%;
+        padding-bottom: 60px;
+    }
+
+    section.features .feature:nth-child(odd) {
+        padding-right: 30px;
+
+    }
+
+    section.features .feature:nth-child(even) {
+        padding-left: 30px;
+        border-left: 2px solid whitesmoke;
+        margin-bottom: 80px;
+    }
+
+    section.features p {
+        font-size: 2.6rem;
+    }
+
+    section.download {
+        padding-bottom: 100px;
+    }
+
+    section.download .wrap {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+
+    section.download h1 {
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+        font-size: 4rem;
+        padding-bottom: 130px;
+        padding-top: 50px;
+    }
+
+    section.download h2 {
+        font-size: 3rem;
+        padding-bottom: 100px;
+    }
+
+    section.download button {
+        width: 340px;
+        padding: 25px 40px;
+        font-size: 3em;
+        border-radius: 80px;
+        border: 3px solid rgb(15, 15, 15);
+        transition: 0.5s ease;
+
+    }
+
+    section.download button:hover {
+        background-color: rgb(15, 15, 15);
+    }
+
+    footer {
+        height: 40vh;
+    }
+
+    footer div.wrapper {
+        max-width: 1280px;
+        margin: 0 auto;
+        height: 40vh;
+    }
+
+    footer div.contact {
+        font-size: 2.2rem;
+
+    }
+
+    footer div.author {
+        font-size: 2.2rem;
+        padding-bottom: 20px;
+    }
+
 }
