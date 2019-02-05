@@ -254,7 +254,6 @@ footer .author {
 
     section.download h1 {
         font-size: 3rem;
-        padding-bottom: 40px;
     }
 
     section.download h2 {
@@ -358,7 +357,6 @@ footer .author {
 
     footer div.wrapper {
         padding-top: 20px;
-        padding-bottom: 40px;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -378,13 +376,11 @@ footer .author {
 @media(min-width:1024px) and (orientation:portrait) {
     header div.text h1 {
         font-size: 5.6rem;
-        padding-top: 100px;
         padding-bottom: 90px;
     }
 
     header div.text h2 {
         font-size: 5rem;
-        padding-bottom: 80px;
     }
 
     header div.text p {
@@ -442,10 +438,6 @@ footer .author {
     section.download h2 {
         font-size: 4.6rem;
         padding-bottom: 120px;
-    }
-
-    section.download .torrent {
-        padding-bottom: 60px;
     }
 
     section.download button {
@@ -517,8 +509,6 @@ footer .author {
 
     section.download h1 {
         font-size: 3rem;
-        padding-bottom: 50px;
-        padding-top: 40px;
     }
 
     section.download h2 {
@@ -675,8 +665,6 @@ footer .author {
         max-width: 1280px;
         margin: 0 auto;
         font-size: 3.4rem;
-        padding-bottom: 40px;
-        padding-top: 40px;
     }
 
     section.features h2 {
@@ -690,13 +678,10 @@ footer .author {
 
     section.download h1 {
         font-size: 3.4rem;
-        padding-bottom: 50px;
-        padding-top: 40px;
     }
 
     section.download h2 {
         font-size: 2.8rem;
-        padding-bottom: 80px;
     }
 
     section.download button {
@@ -743,7 +728,6 @@ footer .author {
     header div.learn-more button {
         border: 3px solid #1556ff;
         font-size: 3.4rem;
-        padding: 20px 30px;
         transition: 0.5s ease;
     }
 
@@ -835,7 +819,6 @@ footer .author {
         border-radius: 80px;
         border: 3px solid rgb(15, 15, 15);
         transition: 0.5s ease;
-
     }
 
     section.download button:hover {
@@ -861,5 +844,4 @@ footer .author {
         font-size: 2.2rem;
         padding-bottom: 20px;
     }
-
 }
