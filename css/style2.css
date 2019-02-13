@@ -100,7 +100,7 @@ section.features .wrap {
     margin: 0 auto;
 }
 
-section.features h1 {
+section.features h2 {
     font-family: 'Lato', sans-serif;
     max-width: 80%;
     margin: 0 auto;
@@ -110,7 +110,7 @@ section.features h1 {
     padding-top: 30px;
 }
 
-section.features h2 {
+section.features h3 {
     color: whitesmoke;
     font-size: 2.2rem;
     padding-bottom: 20px;
@@ -137,7 +137,7 @@ section.download .wrap {
     text-align: center;
 }
 
-section.download h1 {
+section.download h2 {
     width: 80%;
     margin: 0 auto;
     text-align: center;
@@ -151,7 +151,7 @@ section.download .torrent {
     padding-bottom: 30px;
 }
 
-section.download h2 {
+section.download h3 {
     color: rgb(0, 0, 0);
     font-size: 2.2rem;
     padding-bottom: 40px;
@@ -208,15 +208,15 @@ footer .author {
         font-size: 1.9rem;
     }
 
-    section.features h1 {
+    section.features h2 {
         font-size: 2.6rem;
     }
 
-    section.features h2 {
+    section.features h3 {
         font-size: 2.4rem;
     }
 
-    section.download h1 {
+    section.download h2 {
         font-size: 2.9rem;
         padding-bottom: 40px;
     }
@@ -240,11 +240,11 @@ footer .author {
         font-size: 2rem;
     }
 
-    section.features h1 {
+    section.features h2 {
         font-size: 2.8rem;
     }
 
-    section.features h2 {
+    section.features h3 {
         font-size: 2.6rem;
     }
 
@@ -252,11 +252,11 @@ footer .author {
         font-size: 1.9rem;
     }
 
-    section.download h1 {
+    section.download h2 {
         font-size: 3rem;
     }
 
-    section.download h2 {
+    section.download h3 {
         font-size: 2.4rem;
     }
 }
@@ -310,13 +310,13 @@ footer .author {
         padding-bottom: 50px;
     }
 
-    section.features h1 {
+    section.features h2 {
         font-size: 3.8rem;
         padding-top: 50px;
         padding-bottom: 40px;
     }
 
-    section.features h2 {
+    section.features h3 {
         font-size: 3.4rem;
         padding-bottom: 40px;
     }
@@ -334,13 +334,13 @@ footer .author {
         justify-content: space-around;
     }
 
-    section.download h1 {
+    section.download h2 {
         font-size: 4rem;
         padding-bottom: 100px;
         padding-top: 60px;
     }
 
-    section.download h2 {
+    section.download h3 {
         font-size: 3.4rem;
         padding-bottom: 100px;
     }
@@ -412,13 +412,13 @@ footer .author {
         padding-bottom: 70px;
     }
 
-    section.features h1 {
+    section.features h2 {
         font-size: 5rem;
         padding-top: 80px;
         padding-bottom: 80px;
     }
 
-    section.features h2 {
+    section.features h3 {
         font-size: 4.6em;
         padding-bottom: 50px;
     }
@@ -431,11 +431,11 @@ footer .author {
         padding-bottom: 60px;
     }
 
-    section.download h1 {
+    section.download h2 {
         font-size: 4.9rem;
     }
 
-    section.download h2 {
+    section.download h3 {
         font-size: 4.6rem;
         padding-bottom: 120px;
     }
@@ -485,7 +485,7 @@ footer .author {
         display: none;
     }
 
-    section.download h1 {
+    section.download h2 {
         font-size: 2.5rem;
         padding-bottom: 50px;
         padding-top: 40px;
@@ -507,11 +507,11 @@ footer .author {
         text-align: center;
     }
 
-    section.download h1 {
+    section.download h2 {
         font-size: 3rem;
     }
 
-    section.download h2 {
+    section.download h3 {
         font-size: 2.6rem;
     }
 
@@ -566,13 +566,13 @@ footer .author {
         font-size: 2rem;
     }
 
-    section.features h1 {
+    section.features h2 {
         font-size: 3.4rem;
         padding-bottom: 40px;
         padding-top: 40px;
     }
 
-    section.features h2 {
+    section.features h3 {
         font-size: 2.8rem;
     }
 
@@ -585,13 +585,13 @@ footer .author {
         justify-content: space-around;
     }
 
-    section.download h1 {
+    section.download h2 {
         font-size: 3.4rem;
         padding-bottom: 50px;
         padding-top: 40px;
     }
 
-    section.download h2 {
+    section.download h3 {
         font-size: 2.8rem;
         padding-bottom: 80px;
     }
@@ -661,13 +661,13 @@ footer .author {
         padding-bottom: 80px;
     }
 
-    section.features h1 {
+    section.features h2 {
         max-width: 1280px;
         margin: 0 auto;
         font-size: 3.4rem;
     }
 
-    section.features h2 {
+    section.features h3 {
         font-size: 3rem;
         padding-bottom: 40px;
     }
@@ -676,11 +676,11 @@ footer .author {
         font-size: 2.4rem;
     }
 
-    section.download h1 {
+    section.download h2 {
         font-size: 3.4rem;
     }
 
-    section.download h2 {
+    section.download h3 {
         font-size: 2.8rem;
     }
 
@@ -760,13 +760,13 @@ footer .author {
         margin: 0 auto;
     }
 
-    section.features h1 {
+    section.features h2 {
         font-size: 4rem;
         padding-bottom: 70px;
         padding-top: 70px;
     }
 
-    section.features h2 {
+    section.features h3 {
         font-size: 3.4rem;
     }
 
@@ -799,7 +799,7 @@ footer .author {
         margin: 0 auto;
     }
 
-    section.download h1 {
+    section.download h2 {
         font-family: 'Lato', sans-serif;
         text-transform: uppercase;
         font-size: 4rem;
@@ -807,7 +807,7 @@ footer .author {
         padding-top: 50px;
     }
 
-    section.download h2 {
+    section.download h3 {
         font-size: 3rem;
         padding-bottom: 100px;
     }
