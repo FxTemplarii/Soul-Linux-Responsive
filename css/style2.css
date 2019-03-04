@@ -262,10 +262,6 @@ footer .author {
 }
 
 @media(min-width:768px) and (orientation:portrait) {
-    header {
-        height: 90vh;
-    }
-
     header div.text h1 {
         font-size: 4.2rem;
         padding-top: 100px;
@@ -550,12 +546,12 @@ footer .author {
     }
 
     header div.learn-more {
-        padding-top: 25px;
+        padding-top: 15px;
     }
 
     header div.learn-more button {
         font-size: 2.2rem;
-        padding: 20px 25px;
+        padding: 15px 25px;
     }
 
     section.description h2 {
@@ -621,10 +617,6 @@ footer .author {
 }
 
 @media(min-width:1024px) and (orientation:landscape) {
-    header {
-        height: 90vh;
-    }
-
     header div.text h1 {
         padding-top: 70px;
         padding-bottom: 80px;
@@ -662,7 +654,7 @@ footer .author {
     }
 
     section.features h2 {
-        max-width: 1280px;
+        max-width: 80%;
         margin: 0 auto;
         font-size: 3.4rem;
     }
@@ -692,9 +684,6 @@ footer .author {
 }
 
 @media(min-width:1366px) {
-    header {
-        height: 90vh;
-    }
 
     header div.wrapper {
         max-width: 1280px;
@@ -726,6 +715,8 @@ footer .author {
     }
 
     header div.learn-more button {
+        display: flex;
+        justify-content: flex-start;
         border: 3px solid #1556ff;
         font-size: 3.4rem;
         transition: 0.5s ease;
@@ -761,6 +752,7 @@ footer .author {
     }
 
     section.features h2 {
+        max-width: 1280px;
         font-size: 4rem;
         padding-bottom: 70px;
         padding-top: 70px;
