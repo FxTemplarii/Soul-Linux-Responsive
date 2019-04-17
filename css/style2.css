@@ -15,7 +15,7 @@ html {
 /* Header */
 header {
     height: 100vh;
-    background-color: rgb(0, 0, 0);
+    background-color: #0b0c10;
 }
 
 header div.wrapper {
@@ -25,14 +25,15 @@ header div.wrapper {
 
 header div.text h1 {
     font-family: 'Lato', sans-serif;
-    color: whitesmoke;
+    color: #66fcf1;
     font-size: 3rem;
     padding-bottom: 30px;
     padding-top: 50px;
+    text-transform: uppercase;
 }
 
 header div.text h2 span {
-    color: #1556ff;
+    color: #66fcf1;
 }
 
 header div.text h2 {
@@ -44,7 +45,7 @@ header div.text h2 {
 
 header div.text p {
     font-family: 'Nunito', sans-serif;
-    color: #1556ff;
+    color: #c5c6c7;
     font-size: 2rem;
 }
 
@@ -55,18 +56,18 @@ header div.learn-more {
 
 header div.learn-more button {
     font-family: 'Nunito', sans-serif;
-    border: 2px solid #1556ff;
-    color: #1556ff;
+    border: 2px solid #66fcf1;
+    color: #c5c6c7;
     background-color: rgb(0, 0, 0);
     font-weight: bold;
-    border-radius: 40px;
+    /* border-radius: 40px; */
     padding: 15px 20px;
     font-size: 2.2rem;
 }
 
 /* Section Description */
 section.description {
-    background-color: #1556ff;
+    background-color: #1f2833;
 }
 
 section.description .wrap {
@@ -76,7 +77,7 @@ section.description .wrap {
 
 section.description h2 {
     font-family: 'Lato', sans-serif;
-    color: whitesmoke;
+    color: #66fcf1;
     font-size: 2.6rem;
     padding-bottom: 30px;
     padding-top: 30px;
@@ -84,14 +85,14 @@ section.description h2 {
 
 section.description p {
     line-height: 160%;
-    color: whitesmoke;
+    color: #C5C6C7;
     font-size: 1.8rem;
     padding-bottom: 40px;
 }
 
 /* Section Features */
 section.features {
-    background-color: rgb(0, 0, 0);
+    background-color: #0b0c10;
     padding-bottom: 20px;
 }
 
@@ -104,14 +105,14 @@ section.features h2 {
     font-family: 'Lato', sans-serif;
     max-width: 80%;
     margin: 0 auto;
-    color: whitesmoke;
+    color: #66fcf1;
     font-size: 2.4rem;
     padding-bottom: 30px;
     padding-top: 30px;
 }
 
 section.features h3 {
-    color: whitesmoke;
+    color: #66fcf1;
     font-size: 2.2rem;
     padding-bottom: 20px;
 }
@@ -121,13 +122,13 @@ section.features .feature {
 }
 
 section.features p {
-    color: #1556ff;
+    color: #C5C6C7;
     font-size: 1.8rem;
 }
 
 /* Section Download */
 section.download {
-    background-color: #1556ff;
+    background-color: #1f2833;
     padding-bottom: 50px;
 }
 
@@ -141,7 +142,7 @@ section.download h2 {
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    color: whitesmoke;
+    color: #66fcf1;
     font-size: 2.6rem;
     padding-bottom: 30px;
     padding-top: 30px;
@@ -152,15 +153,15 @@ section.download .torrent {
 }
 
 section.download h3 {
-    color: rgb(0, 0, 0);
+    color: #66fcf1;
     font-size: 2.2rem;
     padding-bottom: 40px;
 }
 
 section.download button {
     border: 2px solid rgb(0, 0, 0);
-    background-color: whitesmoke;
-    color: #1556ff;
+    background-color: #C5C6C7;
+    color: #1f2833;
     font-weight: bold;
     border-radius: 40px;
     font-size: 2rem;
@@ -169,7 +170,7 @@ section.download button {
 
 /* Footer */
 footer {
-    background-color: rgb(0, 0, 0);
+    background-color: #0b0c10;
 }
 
 footer div.wrapper {
@@ -178,14 +179,14 @@ footer div.wrapper {
 }
 
 footer .contact {
-    color: whitesmoke;
+    color: #66fcf1;
     font-size: 1.4rem;
     padding-top: 35px;
     padding-bottom: 25px;
 }
 
 footer .author {
-    color: whitesmoke;
+    color: #66fcf1;
     font-size: 1.4rem;
     padding-bottom: 40px;
 }
@@ -640,7 +641,6 @@ footer .author {
     header div.learn-more button {
         font-size: 3rem;
         padding: 20px 30px;
-        border-radius: 80px;
     }
 
     section.description h2 {
@@ -717,14 +717,14 @@ footer .author {
     header div.learn-more button {
         display: flex;
         justify-content: flex-start;
-        border: 3px solid #1556ff;
         font-size: 3.4rem;
         transition: 0.5s ease;
     }
 
     header div.learn-more button:hover {
-        background-color: whitesmoke;
-        border: 3px solid whitesmoke;
+        background-color: #66fcf1;
+        border: 3px solid #66fcf1;
+        color: rgb(15, 15, 15);
     }
 
     section.description .wrap {
@@ -774,7 +774,6 @@ footer .author {
 
     section.features .feature:nth-child(even) {
         padding-left: 30px;
-        border-left: 2px solid whitesmoke;
         margin-bottom: 80px;
     }
 
@@ -815,6 +814,7 @@ footer .author {
 
     section.download button:hover {
         background-color: rgb(15, 15, 15);
+        color: #66fcf1;
     }
 
     footer {
